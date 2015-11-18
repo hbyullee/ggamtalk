@@ -1,0 +1,1595 @@
+Can't load log handler "java.util.logging.FileHandler"
+java.nio.file.NoSuchFileException: /home/hbyullee/ggamtalk/vertx.log.lck
+java.nio.file.NoSuchFileException: /home/hbyullee/ggamtalk/vertx.log.lck
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:177)
+	at java.nio.channels.FileChannel.open(FileChannel.java:287)
+	at java.nio.channels.FileChannel.open(FileChannel.java:335)
+	at java.util.logging.FileHandler.openFiles(FileHandler.java:459)
+	at java.util.logging.FileHandler.<init>(FileHandler.java:263)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at java.util.logging.LogManager$5.run(LogManager.java:966)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.util.logging.LogManager.loadLoggerHandlers(LogManager.java:958)
+	at java.util.logging.LogManager.initializeGlobalHandlers(LogManager.java:1578)
+	at java.util.logging.LogManager.access$1500(LogManager.java:145)
+	at java.util.logging.LogManager$RootLogger.accessCheckedHandlers(LogManager.java:1667)
+	at java.util.logging.Logger.getHandlers(Logger.java:1776)
+	at java.util.logging.Logger.log(Logger.java:735)
+	at io.vertx.core.logging.JULLogDelegate.log(JULLogDelegate.java:162)
+	at io.vertx.core.logging.JULLogDelegate.log(JULLogDelegate.java:166)
+	at io.vertx.core.logging.JULLogDelegate.log(JULLogDelegate.java:147)
+	at io.vertx.core.logging.JULLogDelegate.info(JULLogDelegate.java:93)
+	at io.vertx.core.logging.Logger.info(Logger.java:98)
+	at io.vertx.core.impl.verticle.CompilingClassLoader.<init>(CompilingClassLoader.java:110)
+	at io.vertx.core.impl.JavaVerticleFactory.createVerticle(JavaVerticleFactory.java:38)
+	at io.vertx.core.impl.DeploymentManager.createVerticles(DeploymentManager.java:186)
+	at io.vertx.core.impl.DeploymentManager.lambda$doDeployVerticle$153(DeploymentManager.java:159)
+	at io.vertx.core.impl.FutureImpl.checkCallHandler(FutureImpl.java:135)
+	at io.vertx.core.impl.FutureImpl.setHandler(FutureImpl.java:100)
+	at io.vertx.core.impl.DeploymentManager.doDeployVerticle(DeploymentManager.java:132)
+	at io.vertx.core.impl.DeploymentManager.doDeployVerticle(DeploymentManager.java:104)
+	at io.vertx.core.impl.DeploymentManager.deployVerticle(DeploymentManager.java:92)
+	at io.vertx.core.impl.VertxImpl.deployVerticle(VertxImpl.java:557)
+	at io.vertx.core.impl.launcher.commands.VertxIsolatedDeployer.deploy(VertxIsolatedDeployer.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at io.vertx.core.impl.launcher.commands.ClasspathHandler.deploy(ClasspathHandler.java:160)
+	at io.vertx.core.impl.launcher.commands.RunCommand.deploy(RunCommand.java:337)
+	at io.vertx.core.impl.launcher.commands.RunCommand.run(RunCommand.java:221)
+	at io.vertx.core.impl.launcher.VertxCommandLauncher.execute(VertxCommandLauncher.java:211)
+	at io.vertx.core.impl.launcher.VertxCommandLauncher.dispatch(VertxCommandLauncher.java:346)
+	at io.vertx.core.impl.launcher.VertxCommandLauncher.dispatch(VertxCommandLauncher.java:309)
+	at io.vertx.core.Launcher.main(Launcher.java:48)
+warning: Implicitly compiled files were not subject to annotation processing.
+  Use -proc:none to disable annotation processing or -implicit to specify a policy for implicit compilation. 
+Note: /home/hbyullee/ggamtalk_server/src/com/soma/ggamtalk/verticle/RedisVerticle.java uses or overrides a deprecated API. 
+Note: Recompile with -Xlint:deprecation for details. 
+Note: /home/hbyullee/ggamtalk_server/src/com/soma/ggamtalk/verticle/RestVerticle.java uses unchecked or unsafe operations. 
+Note: Recompile with -Xlint:unchecked for details. 
+You're already on a Vert.x context, are you sure you want to create a new Vertx instance? 
+You're already on a Vert.x context, are you sure you want to create a new Vertx instance? 
+Succeeded in deploying verticle 
+MLog initialization issue: slf4j found no binding or threatened to use its (dangerously silent) NOPLogger. We consider the slf4j library not found.
+MLog clients using java 1.4+ standard logging. 
+Initializing c3p0-0.9.5.1 [built 16-June-2015 00:06:36 -0700; debug? true; trace: 10] 
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kflt9c1s2v7uc7bviea|a4a912c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> null, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kflt9c1s2v7uc7bviea|a4a912c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/wraptalk?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ] 
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446987989024,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446987989024,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446987989024,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com
+path : /user/listChannel
+query : token=15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com
+paramters to json : {"token":"15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446987989024,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com
+path : /user/listChannel
+query : token=15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com
+paramters to json : {"token":"15186e71cec4f2d697eab3e60a3757c93f19d2dd450cecc183e02b3e925bec0b:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446987989024,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988297974,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988297975,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988297975,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com
+path : /user/listChannel
+query : token=9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com
+paramters to json : {"token":"9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988297975,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com
+path : /user/listChannel
+query : token=9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com
+paramters to json : {"token":"9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988297975,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/appChannel?token=9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com&app_id=category.Study
+path : /user/appChannel
+query : token=9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com&app_id=category.Study
+paramters to json : {"token":"9df5c48cad9ac1725db5bdfae1ad0fbf6e41d6199488e056f4287e8b502eee55:ab@a.com","app_id":"category.Study"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988297975,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988612371,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"edc73c0c000f1df13e31efed6a93303b9f852655bf7455d8be6feb97f9e840c4:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988612371,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : edc73c0c000f1df13e31efed6a93303b9f852655bf7455d8be6feb97f9e840c4:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988612371,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=edc73c0c000f1df13e31efed6a93303b9f852655bf7455d8be6feb97f9e840c4:ab@a.com
+path : /user/listChannel
+query : token=edc73c0c000f1df13e31efed6a93303b9f852655bf7455d8be6feb97f9e840c4:ab@a.com
+paramters to json : {"token":"edc73c0c000f1df13e31efed6a93303b9f852655bf7455d8be6feb97f9e840c4:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988612371,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988686741,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"35f26cf71f2ced2a8b1209a184f2451163141154e93131a9a82bb97f41f0fb54:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988686741,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 35f26cf71f2ced2a8b1209a184f2451163141154e93131a9a82bb97f41f0fb54:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988686741,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=35f26cf71f2ced2a8b1209a184f2451163141154e93131a9a82bb97f41f0fb54:ab@a.com
+path : /user/listChannel
+query : token=35f26cf71f2ced2a8b1209a184f2451163141154e93131a9a82bb97f41f0fb54:ab@a.com
+paramters to json : {"token":"35f26cf71f2ced2a8b1209a184f2451163141154e93131a9a82bb97f41f0fb54:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988686741,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988776390,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"177a5e7ab469749f2344c187f003238730fc3829bcc9ff38febe5849f41a426b:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988776390,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 177a5e7ab469749f2344c187f003238730fc3829bcc9ff38febe5849f41a426b:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988776390,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=177a5e7ab469749f2344c187f003238730fc3829bcc9ff38febe5849f41a426b:ab@a.com
+path : /user/listChannel
+query : token=177a5e7ab469749f2344c187f003238730fc3829bcc9ff38febe5849f41a426b:ab@a.com
+paramters to json : {"token":"177a5e7ab469749f2344c187f003238730fc3829bcc9ff38febe5849f41a426b:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988776390,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988907904,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"f472fc9f13e0be0dbcf9ab4a621f50566357ddc7bb6f89354e3997fe7fdbf1b7:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988907904,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : f472fc9f13e0be0dbcf9ab4a621f50566357ddc7bb6f89354e3997fe7fdbf1b7:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988907904,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=f472fc9f13e0be0dbcf9ab4a621f50566357ddc7bb6f89354e3997fe7fdbf1b7:ab@a.com
+path : /user/listChannel
+query : token=f472fc9f13e0be0dbcf9ab4a621f50566357ddc7bb6f89354e3997fe7fdbf1b7:ab@a.com
+paramters to json : {"token":"f472fc9f13e0be0dbcf9ab4a621f50566357ddc7bb6f89354e3997fe7fdbf1b7:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988907904,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988997791,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"7ec586488b2d9b5b6c46f2e18b092d7621691e7b4051f7de146bc8a021ca7bfe:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988997791,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 7ec586488b2d9b5b6c46f2e18b092d7621691e7b4051f7de146bc8a021ca7bfe:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988997791,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=7ec586488b2d9b5b6c46f2e18b092d7621691e7b4051f7de146bc8a021ca7bfe:ab@a.com
+path : /user/listChannel
+query : token=7ec586488b2d9b5b6c46f2e18b092d7621691e7b4051f7de146bc8a021ca7bfe:ab@a.com
+paramters to json : {"token":"7ec586488b2d9b5b6c46f2e18b092d7621691e7b4051f7de146bc8a021ca7bfe:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446988997791,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989058314,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"6f3a2bd552428fa7da0f387b2856b720325bebd8965ad36ba79b2fa2905242cc:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989058314,133.130.113.101:7010"}
+set key : 6f3a2bd552428fa7da0f387b2856b720325bebd8965ad36ba79b2fa2905242cc:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989058314,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=6f3a2bd552428fa7da0f387b2856b720325bebd8965ad36ba79b2fa2905242cc:ab@a.com
+path : /user/listChannel
+query : token=6f3a2bd552428fa7da0f387b2856b720325bebd8965ad36ba79b2fa2905242cc:ab@a.com
+paramters to json : {"token":"6f3a2bd552428fa7da0f387b2856b720325bebd8965ad36ba79b2fa2905242cc:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989058314,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989163942,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"331f27de4b19e0a8428c75915285ab25e7148f5c4aa630e1098716479e61bc4c:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989163942,133.130.113.101:7010"}
+set key : 331f27de4b19e0a8428c75915285ab25e7148f5c4aa630e1098716479e61bc4c:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989163942,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=331f27de4b19e0a8428c75915285ab25e7148f5c4aa630e1098716479e61bc4c:ab@a.com
+path : /user/listChannel
+query : token=331f27de4b19e0a8428c75915285ab25e7148f5c4aa630e1098716479e61bc4c:ab@a.com
+paramters to json : {"token":"331f27de4b19e0a8428c75915285ab25e7148f5c4aa630e1098716479e61bc4c:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989163942,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989243160,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"e43dbbce9fba154deb91aff87d48ea58c361691cfe716a2e2f9da709540f3104:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989243160,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : e43dbbce9fba154deb91aff87d48ea58c361691cfe716a2e2f9da709540f3104:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989243160,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=e43dbbce9fba154deb91aff87d48ea58c361691cfe716a2e2f9da709540f3104:ab@a.com
+path : /user/listChannel
+query : token=e43dbbce9fba154deb91aff87d48ea58c361691cfe716a2e2f9da709540f3104:ab@a.com
+paramters to json : {"token":"e43dbbce9fba154deb91aff87d48ea58c361691cfe716a2e2f9da709540f3104:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446989243160,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/customQuery?query=select%20*%20from%20user
+path : /user/customQuery
+query : query=select%20*%20from%20user
+paramters to json : {"query":"select * from user"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.CustomQueryAPI execute !!
+0 selectQuery execute
+com.soma.ggamtalk.api.CustomQueryAPI onExecute : {"results":{"columnNames":["user_no","user_id","user_pw","device_id","gcm_id","join_date"],"results":[[1,"ab@a.com","aaaaaa","353582070268347","APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","2015-11-06T10:16:35Z"],[2,"hi@com","123","default","default","2015-11-06T10:55:31Z"],[3,"hbyu@llee2","1234","123219","12345","2015-11-07T07:07:38Z"],[4,"a@a.com","aaaaaa","temp","temp","2015-11-07T14:39:25Z"],[5,"hba@yullee","1234","123","12345","2015-11-08T05:45:58Z"]]}}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446995794070,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"b37558f31801707cf259df100bd319ad7c680f7111591d9d6c0efba9de6fbe0e:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446995794070,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : b37558f31801707cf259df100bd319ad7c680f7111591d9d6c0efba9de6fbe0e:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446995794070,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=b37558f31801707cf259df100bd319ad7c680f7111591d9d6c0efba9de6fbe0e:ab@a.com
+path : /user/listChannel
+query : token=b37558f31801707cf259df100bd319ad7c680f7111591d9d6c0efba9de6fbe0e:ab@a.com
+paramters to json : {"token":"b37558f31801707cf259df100bd319ad7c680f7111591d9d6c0efba9de6fbe0e:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446995794070,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997297338,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"239501f83f5675485b57101c0e268497d6a2944ddc3a1e58a21861b3eca0edd0:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997297338,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 239501f83f5675485b57101c0e268497d6a2944ddc3a1e58a21861b3eca0edd0:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997297338,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=239501f83f5675485b57101c0e268497d6a2944ddc3a1e58a21861b3eca0edd0:ab@a.com
+path : /user/listChannel
+query : token=239501f83f5675485b57101c0e268497d6a2944ddc3a1e58a21861b3eca0edd0:ab@a.com
+paramters to json : {"token":"239501f83f5675485b57101c0e268497d6a2944ddc3a1e58a21861b3eca0edd0:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997297338,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997662473,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"b5f4fde15452c6daf9268e3e301969dfd2e75f780e6cb3482b73faafb35f14d8:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997662473,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : b5f4fde15452c6daf9268e3e301969dfd2e75f780e6cb3482b73faafb35f14d8:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997662473,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=b5f4fde15452c6daf9268e3e301969dfd2e75f780e6cb3482b73faafb35f14d8:ab@a.com
+path : /user/listChannel
+query : token=b5f4fde15452c6daf9268e3e301969dfd2e75f780e6cb3482b73faafb35f14d8:ab@a.com
+paramters to json : {"token":"b5f4fde15452c6daf9268e3e301969dfd2e75f780e6cb3482b73faafb35f14d8:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997662473,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997749325,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"87828618e6318b5faedf8e178a29b15cd308ffdc2def4a570e860b9b4f116de6:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997749325,133.130.113.101:7010"}
+set key : 87828618e6318b5faedf8e178a29b15cd308ffdc2def4a570e860b9b4f116de6:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997749325,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=87828618e6318b5faedf8e178a29b15cd308ffdc2def4a570e860b9b4f116de6:ab@a.com
+path : /user/listChannel
+query : token=87828618e6318b5faedf8e178a29b15cd308ffdc2def4a570e860b9b4f116de6:ab@a.com
+paramters to json : {"token":"87828618e6318b5faedf8e178a29b15cd308ffdc2def4a570e860b9b4f116de6:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997749325,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+path : /user/listChannel
+query : token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+paramters to json : {"token":"4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+path : /user/listChannel
+query : token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+paramters to json : {"token":"4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+path : /user/listChannel
+query : token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+paramters to json : {"token":"4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/appChannel?token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com&app_id=category.Hobby
+path : /user/appChannel
+query : token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com&app_id=category.Hobby
+paramters to json : {"token":"4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com","app_id":"category.Hobby"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+POST
+uri : /user/listChannel?token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+path : /user/listChannel
+query : token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com
+paramters to json : {"token":"4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/appChannel?token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com&app_id=category.Study
+path : /user/appChannel
+query : token=4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com&app_id=category.Study
+paramters to json : {"token":"4a2f5901976a4ef9d195a0355d57896dd3afb4811798b49afb3d289b58b8e750:ab@a.com","app_id":"category.Study"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446997872742,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/listChannel?token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+path : /user/listChannel
+query : token=433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com
+paramters to json : {"token":"433e41258b6e21344c1e7ac368bff4279bb7301636609a0ab75df74dd069fdbd:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1446998271074,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"랩톡 스터디\",\"public_onoff\":\"off\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"5\",\"user_id\":\"ab@a.com\",\"channel_pw\":\"1234\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c\"}"],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&gcm_id=default&device_id=default
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&gcm_id=default&device_id=default
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","gcm_id":"default","device_id":"default"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,default,1446999193673,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"e790cd085fa770c54a67e5afd68bbe7ca0d758ffc21c1f460f276b21cd1bd611:ab@a.com","value":"ab@a.com,default,1446999193673,133.130.113.101:7010"}
+set key : e790cd085fa770c54a67e5afd68bbe7ca0d758ffc21c1f460f276b21cd1bd611:ab@a.com, value : ab@a.com,default,1446999193673,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/customQuery?query=select%20*%20from%20user
+path : /user/customQuery
+query : query=select%20*%20from%20user
+paramters to json : {"query":"select * from user"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.CustomQueryAPI execute !!
+0 selectQuery execute
+Query Failed: Failed to get ResultSet Communications link failure
+
+The last packet successfully received from the server was 31,591,304 milliseconds ago.  The last packet sent successfully to the server was 7 milliseconds ago.
+select * from user
+com.soma.ggamtalk.api.CustomQueryAPI onExecute : {"result_msg":"Failed to get ResultSet Communications link failure\n\nThe last packet successfully received from the server was 31,591,304 milliseconds ago.  The last packet sent successfully to the server was 7 milliseconds ago.","result_code":-1}
+GET
+uri : /user/customQuery?query=select+*+from+app
+path : /user/customQuery
+query : query=select+*+from+app
+paramters to json : {"query":"select * from app"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.CustomQueryAPI execute !!
+0 selectQuery execute
+com.soma.ggamtalk.api.CustomQueryAPI onExecute : {"results":{"columnNames":["app_no","app_id","app_cate"],"results":[[11,"com.netmarble.crow","game"],[12,"com.example.game","game"],[13,"ko.naver.game.friendpop","game"],[14,"com.han.campus","social"],[15,"com.ha2n.campus","social"],[16,"com.joycity.godofdice","game"],[17,"com.kakao.talk","communication"],[18,"com.frograms.watcha","entertainment"],[19,"com.han.campzaus","social"],[20,"com.linecorp.b612.android","camera"],[21,"com.test.dic",""]]}}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"default","user_pw":"aaaaaa","device_id":"default","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043651902,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"fc2b4d095dfa2c7d21d3d98103c80959342fcd3475770cf8ad627984aa243580:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043651902,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : fc2b4d095dfa2c7d21d3d98103c80959342fcd3475770cf8ad627984aa243580:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043651902,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=fc2b4d095dfa2c7d21d3d98103c80959342fcd3475770cf8ad627984aa243580:ab@a.com
+path : /user/listChannel
+query : token=fc2b4d095dfa2c7d21d3d98103c80959342fcd3475770cf8ad627984aa243580:ab@a.com
+paramters to json : {"token":"fc2b4d095dfa2c7d21d3d98103c80959342fcd3475770cf8ad627984aa243580:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043651902,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043686687,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043686687,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043686687,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com
+path : /user/listChannel
+query : token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com
+paramters to json : {"token":"bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043686687,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/listChannel?token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com
+path : /user/listChannel
+query : token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com
+paramters to json : {"token":"bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043686687,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/listChannel?token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com
+path : /user/listChannel
+query : token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com
+paramters to json : {"token":"bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043686687,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/appChannel?token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com&app_id=category.Study
+path : /user/appChannel
+query : token=bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com&app_id=category.Study
+paramters to json : {"token":"bbfed020c43104ee353b75b20436a813e12a7a22c65abef6ea81f78508cb8f45:ab@a.com","app_id":"category.Study"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447043686687,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+GET
+uri : /user/login?user_id=abcd@b.com&user_pw=1234&device_id=temp&gcm_id=temp
+path : /user/login
+query : user_id=abcd@b.com&user_pw=1234&device_id=temp&gcm_id=temp
+paramters to json : {"user_id":"abcd@b.com","user_pw":"1234","device_id":"temp","gcm_id":"temp"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+GET
+uri : /user/join?user_id=a@a.com&user_pw=aaaaaa&device_id=temp&gcm_id=temp
+path : /user/join
+query : user_id=a@a.com&user_pw=aaaaaa&device_id=temp&gcm_id=temp
+paramters to json : {"user_id":"a@a.com","user_pw":"aaaaaa","device_id":"temp","gcm_id":"temp"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.JoinAPI execute !!
+3 selectQuery execute
+com.soma.ggamtalk.api.JoinAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"temp","user_pw":"aaaaaa","device_id":"temp","user_id":"a@a.com","join_date":"2015-11-07T14:39:25Z","user_no":4}],"result_code":0}
+POST
+uri : /user/join?user_id=hi&user_pw=123&gcm_id=web_admin&device_id=web_amdin
+path : /user/join
+query : user_id=hi&user_pw=123&gcm_id=web_admin&device_id=web_amdin
+paramters to json : {"user_id":"hi","user_pw":"123","gcm_id":"web_admin","device_id":"web_amdin"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.JoinAPI execute !!
+POST
+uri : /user/join?user_id=in@com&user_pw=123&gcm_id=web_admin&device_id=web_amdin
+path : /user/join
+query : user_id=in@com&user_pw=123&gcm_id=web_admin&device_id=web_amdin
+paramters to json : {"user_id":"in@com","user_pw":"123","gcm_id":"web_admin","device_id":"web_amdin"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.JoinAPI execute !!
+3 selectQuery execute
+1 insertQuery execute
+com.soma.ggamtalk.api.JoinAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+5 setRedis execute
+com.soma.ggamtalk.api.JoinAPI{"key":"f9846cdfabf62c905c1f94c039303ff5fc6004991f3330210ae1fedce278ef95:in@com","value":"in@com,web_admin,1447058468225,133.130.113.101:7010"}
+com.soma.ggamtalk.api.JoinAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : f9846cdfabf62c905c1f94c039303ff5fc6004991f3330210ae1fedce278ef95:in@com, value : in@com,web_admin,1447058468225,133.130.113.101:7010
+com.soma.ggamtalk.api.JoinAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/login?user_id=in@com&user_pw=123&gcm_id=default&device_id=default
+path : /user/login
+query : user_id=in@com&user_pw=123&gcm_id=default&device_id=default
+paramters to json : {"user_id":"in@com","user_pw":"123","gcm_id":"default","device_id":"default"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"web_admin","user_pw":"123","device_id":"web_amdin","user_id":"in@com","join_date":"2015-11-09T08:41:08Z","user_no":6}],"result_code":0}
+login redis : in@com,default,1447058478456,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"69814c233deee4576c25c2df3a4b3a3dafa967a6d89594691cec1d3fb678d1bf:in@com","value":"in@com,default,1447058478456,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 69814c233deee4576c25c2df3a4b3a3dafa967a6d89594691cec1d3fb678d1bf:in@com, value : in@com,default,1447058478456,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/customQuery?query=select%20*%20from%20user
+path : /user/customQuery
+query : query=select%20*%20from%20user
+paramters to json : {"query":"select * from user"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.CustomQueryAPI execute !!
+0 selectQuery execute
+com.soma.ggamtalk.api.CustomQueryAPI onExecute : {"results":{"columnNames":["user_no","user_id","user_pw","device_id","gcm_id","join_date"],"results":[[1,"ab@a.com","aaaaaa","353582070268347","APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","2015-11-06T10:16:35Z"],[2,"hi@com","123","default","default","2015-11-06T10:55:31Z"],[3,"hbyu@llee2","1234","123219","12345","2015-11-07T07:07:38Z"],[4,"a@a.com","aaaaaa","temp","temp","2015-11-07T14:39:25Z"],[5,"hba@yullee","1234","123","12345","2015-11-08T05:45:58Z"],[6,"in@com","123","default","default","2015-11-09T08:41:08Z"]]}}
+POST
+uri : /user/login?user_id=hi@com&user_pw=123&gcm_id=default&device_id=default
+path : /user/login
+query : user_id=hi@com&user_pw=123&gcm_id=default&device_id=default
+paramters to json : {"user_id":"hi@com","user_pw":"123","gcm_id":"default","device_id":"default"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"default","user_pw":"123","device_id":"default","user_id":"hi@com","join_date":"2015-11-06T10:55:31Z","user_no":2}],"result_code":0}
+login redis : hi@com,default,1447058715177,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"c38db5a7b5bd06d2a931d1b91126bbd3017833327e8e1c5e39c38ce7850c3aff:hi@com","value":"hi@com,default,1447058715177,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : c38db5a7b5bd06d2a931d1b91126bbd3017833327e8e1c5e39c38ce7850c3aff:hi@com, value : hi@com,default,1447058715177,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/registApp?token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=com.kakao.talk&user_nick=%EB%8A%98
+path : /user/registApp
+query : token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=com.kakao.talk&user_nick=%EB%8A%98
+paramters to json : {"token":"fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com","app_id":"com.kakao.talk","user_nick":"늘"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.RegistAppAPI execute !!
+4 getRedis execute
+6 insertQuery execute
+com.soma.ggamtalk.api.RegistAppAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010","result_code":0}
+32 delRedis execute
+com.soma.ggamtalk.api.RegistAppAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.RegistAppAPI onExecute : {"result_msg":"del success","result_code":0}
+POST
+uri : /user/appChannel?token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=com.kakao.talk
+path : /user/appChannel
+query : token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=com.kakao.talk
+paramters to json : {"token":"fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com","app_id":"com.kakao.talk"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+POST
+uri : /user/appChannel?token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=com.kakao.talk
+path : /user/appChannel
+query : token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=com.kakao.talk
+paramters to json : {"token":"fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com","app_id":"com.kakao.talk"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+POST
+uri : /user/listChannel?token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com
+path : /user/listChannel
+query : token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com
+paramters to json : {"token":"fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/listChannel?token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com
+path : /user/listChannel
+query : token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com
+paramters to json : {"token":"fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/appChannel?token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=category.Study
+path : /user/appChannel
+query : token=fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com&app_id=category.Study
+paramters to json : {"token":"fb368963b047f6e89f8724f8688dc3a12e44c61362041d5b56ea0ee064e8cb48:ab@a.com","app_id":"category.Study"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447060496251,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+eventbus chat msg : {"msg":"는","channel_id":"channel_id"}
+요기1
+요기2
+요기3
+GCM send success : {"result_code":0}
+io.vertx.core.VertxException: Connection was closed 
+eventbus chat msg : {"msg":"ㅅㄷ","channel_id":"channel_id","sender_id":"닉넴"}
+요기1
+요기2
+요기3
+GCM send success : {"result_code":0}
+io.vertx.core.VertxException: Connection was closed 
+POST
+uri : /user/userListChannel?token=a745af2ece53af24e2dcc87&before_pw=1234&channel_id=1231
+path : /user/userListChannel
+query : token=a745af2ece53af24e2dcc87&before_pw=1234&channel_id=1231
+paramters to json : {"token":"a745af2ece53af24e2dcc87","before_pw":"1234","channel_id":"1231"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.UserListChannelAPI execute !!
+4 getRedis execute
+com.soma.ggamtalk.api.UserListChannelAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+POST
+uri : /user/join
+path : /user/join
+query : null
+paramters to json : {}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.JoinAPI execute !!
+POST
+uri : /user/join
+path : /user/join
+query : null
+paramters to json : {}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.JoinAPI execute !!
+POST
+uri : /user/join
+path : /user/join
+query : null
+paramters to json : {}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.JoinAPI execute !!
+POST
+uri : /user/registApp?token=a745af2ece53af24e2dcc87&%20app_id=com.kakao.kakaotalk&user_nick=daeho
+path : /user/registApp
+query : token=a745af2ece53af24e2dcc87&%20app_id=com.kakao.kakaotalk&user_nick=daeho
+paramters to json : {"token":"a745af2ece53af24e2dcc87"," app_id":"com.kakao.kakaotalk","user_nick":"daeho"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.RegistAppAPI execute !!
+GET
+uri : /user/registApp?token=a745af2ece53af24e2dcc87&%20app_id=com.kakao.kakaotalk&user_nick=daeho
+path : /user/registApp
+query : token=a745af2ece53af24e2dcc87&%20app_id=com.kakao.kakaotalk&user_nick=daeho
+paramters to json : {"token":"a745af2ece53af24e2dcc87"," app_id":"com.kakao.kakaotalk","user_nick":"daeho"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.RegistAppAPI execute !!
+GET
+uri : /user/registApp?token=a745af2ece53af24e2dcc87&%20app_id=com.kakao.kakaotalk&user_nick=daeho
+path : /user/registApp
+query : token=a745af2ece53af24e2dcc87&%20app_id=com.kakao.kakaotalk&user_nick=daeho
+paramters to json : {"token":"a745af2ece53af24e2dcc87"," app_id":"com.kakao.kakaotalk","user_nick":"daeho"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.RegistAppAPI execute !!
+GET
+uri : /user/listApp?token=a745af2ece53af24e2dcc87
+path : /user/listApp
+query : token=a745af2ece53af24e2dcc87
+paramters to json : {"token":"a745af2ece53af24e2dcc87"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+GET
+uri : /user/listApp?token=a745af2ece53af24e2dcc87
+path : /user/listApp
+query : token=a745af2ece53af24e2dcc87
+paramters to json : {"token":"a745af2ece53af24e2dcc87"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=352136060328008&gcm_id=APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=352136060328008&gcm_id=APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"352136060328008","gcm_id":"APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+Query Failed: Failed to update Could not retrieve transation read-only status server
+UPDATE user SET gcm_id='APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX', device_id='352136060328008' WHERE user_id='ab@a.com'
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"Failed to update Could not retrieve transation read-only status server","result_code":-1}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=352136060328008&gcm_id=APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=352136060328008&gcm_id=APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"352136060328008","gcm_id":"APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447086901969,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com","value":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447086901969,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com, value : ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447086901969,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+GET
+uri : /user/listApp?token=a745af2ece53af24e2dcc87
+path : /user/listApp
+query : token=a745af2ece53af24e2dcc87
+paramters to json : {"token":"a745af2ece53af24e2dcc87"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+GET
+uri : /user/listApp?token=a745af2ece53af24e2dcc87
+path : /user/listApp
+query : token=a745af2ece53af24e2dcc87
+paramters to json : {"token":"a745af2ece53af24e2dcc87"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+GET
+uri : /user/listApp?token=a745af2ece53af24e2dcc87
+path : /user/listApp
+query : token=a745af2ece53af24e2dcc87
+paramters to json : {"token":"a745af2ece53af24e2dcc87"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+GET
+uri : /user/listApp?token=a745af2ece53af24e2dcc87
+path : /user/listApp
+query : token=a745af2ece53af24e2dcc87
+paramters to json : {"token":"a745af2ece53af24e2dcc87"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX","user_pw":"aaaaaa","device_id":"352136060328008","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087012619,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"fb16389fd54ff0d2d1bd6bf7c4438ecbd7f559e4fc793687f4851a7ce4e7329a:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087012619,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : fb16389fd54ff0d2d1bd6bf7c4438ecbd7f559e4fc793687f4851a7ce4e7329a:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087012619,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+GET
+uri : /user/listApp?token=0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com
+path : /user/listApp
+query : token=0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com
+paramters to json : {"token":"0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+25 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447086901969,133.130.113.101:7010","result_code":0}
+7 selectQuery execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+Query Failed: Failed to get ResultSet You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM app_user_list WHERE user_id='ab@a.com',
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"Failed to get ResultSet You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1","result_code":-1}
+POST
+uri : /user/listChannel?token=fb16389fd54ff0d2d1bd6bf7c4438ecbd7f559e4fc793687f4851a7ce4e7329a:ab@a.com
+path : /user/listChannel
+query : token=fb16389fd54ff0d2d1bd6bf7c4438ecbd7f559e4fc793687f4851a7ce4e7329a:ab@a.com
+paramters to json : {"token":"fb16389fd54ff0d2d1bd6bf7c4438ecbd7f559e4fc793687f4851a7ce4e7329a:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087012619,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+GET
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=352136060328008&gcm_id=APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=352136060328008&gcm_id=APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"352136060328008","gcm_id":"APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","user_pw":"aaaaaa","device_id":"353582070268347","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com","value":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com, value : ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+GET
+uri : /user/listApp?token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+path : /user/listApp
+query : token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+paramters to json : {"token":"8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+25 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010","result_code":0}
+7 selectQuery execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+Query Failed: Failed to get ResultSet You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM app_user_list WHERE user_id='ab@a.com',
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"Failed to get ResultSet You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1","result_code":-1}
+GET
+uri : /user/listApp?token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+path : /user/listApp
+query : token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+paramters to json : {"token":"8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListAppAPI execute !!
+4 getRedis execute
+25 getRedis execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010","result_code":0}
+7 selectQuery execute
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"해당하는 키에 대한 값이 존재하지 않습니다.","result_code":0}
+Query Failed: Failed to get ResultSet You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM app_user_list WHERE user_id='ab@a.com',
+com.soma.ggamtalk.api.ListAppAPI onExecute : {"result_msg":"Failed to get ResultSet You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1","result_code":-1}
+POST
+uri : /user/listChannel?token=0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com
+path : /user/listChannel
+query : token=0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com
+paramters to json : {"token":"0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447086901969,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+GET
+uri : /user/listChannel?token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+path : /user/listChannel
+query : token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+paramters to json : {"token":"8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅2 
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+GET
+uri : /user/userListChannel?token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com&channel_id=99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c
+path : /user/userListChannel
+query : token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com&channel_id=99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c
+paramters to json : {"token":"8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com","channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.UserListChannelAPI execute !!
+4 getRedis execute
+23 smembersRedis execute
+com.soma.ggamtalk.api.UserListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010","result_code":0}
+요기1
+요기2
+요기3
+com.soma.ggamtalk.api.UserListChannelAPI onExecute : {"result_msg":"smembers success","result":[],"result_code":0}
+GET
+uri : /user/userListChannel?token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com&channel_id=99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c
+path : /user/userListChannel
+query : token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com&channel_id=99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c
+paramters to json : {"token":"8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com","channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.UserListChannelAPI execute !!
+4 getRedis execute
+23 smembersRedis execute
+com.soma.ggamtalk.api.UserListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010","result_code":0}
+요기1
+요기2
+요기3
+com.soma.ggamtalk.api.UserListChannelAPI onExecute : {"result_msg":"smembers success","result":[],"result_code":0}
+GET
+uri : /user/listChannel?token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+path : /user/listChannel
+query : token=8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com
+paramters to json : {"token":"8ad6e78d50f1a393e7834b1042769858c12a0ec3d6b935cb0684d6e6a1ccb401:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447087087084,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/listChannel?token=0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com
+path : /user/listChannel
+query : token=0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com
+paramters to json : {"token":"0d6e8275d35357c1da65493cedd6c2ea1a136f5059ada1fa0fd2698441975b4a:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX,1447086901969,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+디벅 ["channelList:category.Study:99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":60,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+2 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"랩톡 스터디","public_onoff":"off","datetime":"2015-11-08T05:40:54Z","channel_limit":5,"channel_no":53,"channel_pw":1234,"channel_cate":"","default_channel":null,"channel_id":"99a541ae934e5a747f6bd0d6c2fea78076fe4d613a1ff91221580b156852492c","app_id":"category.Study","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/login?user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+path : /user/login
+query : user_id=ab@a.com&user_pw=aaaaaa&device_id=353582070268347&gcm_id=APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft
+paramters to json : {"user_id":"ab@a.com","user_pw":"aaaaaa","device_id":"353582070268347","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI execute !!
+2 selectQuery execute
+21 insertQuery execute
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"select success","results":[{"gcm_id":"APA91bFzZzUYb0nxb6b2MQrJ6JbYxCxTe95lV5QnwoJmpiCzNUwL5MoZfEemLGekMLRWAD1hLUaY9FN69JYfeQ0AU_-ZqFu9SL31WuYe7PzxpXLGPO7vh4KkcSXQq4G3SaKDOnuy73YX","user_pw":"aaaaaa","device_id":"352136060328008","user_id":"ab@a.com","join_date":"2015-11-06T10:16:35Z","user_no":1}],"result_code":0}
+login redis : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010
+5 setRedis execute
+com.soma.ggamtalk.api.LoginAPI{"key":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com","value":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010"}
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+set key : 4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010
+com.soma.ggamtalk.api.LoginAPI onExecute : {"result_msg":"set success","result_code":0}
+POST
+uri : /user/listChannel?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com
+path : /user/listChannel
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+POST
+uri : /user/appChannel?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=category.Study
+path : /user/appChannel
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=category.Study
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com","app_id":"category.Study"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+POST
+uri : /user/makeChannel?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=category.Study&channel_name=%EA%B2%BD%EC%99%80%EB%8B%88&public_onoff=on&channel_limit=4&user_nick=￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+path : /user/makeChannel
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=category.Study&channel_name=%EA%B2%BD%EC%99%80%EB%8B%88&public_onoff=on&channel_limit=4&user_nick=￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com","app_id":"category.Study","channel_name":"경와니","public_onoff":"on","channel_limit":"4","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.MakeChannelAPI execute !!
+4 getRedis execute
+8 insertQuery execute
+24 setRedis execute
+com.soma.ggamtalk.api.MakeChannelAPI{"key":"channelList:category.Study:a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906","value":"{\"channel_name\":\"경와니\",\"public_onoff\":\"on\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"4\",\"user_id\":\"ab@a.com\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906\"}"}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+set key : channelList:category.Study:a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906, value : {"channel_name":"경와니","public_onoff":"on","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","channel_limit":"4","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ","channel_id":"a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906"}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"set success","result_code":0}
+26 setRedis execute
+permit add : a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906
+22 saddRedis execute
+12 insertQuery execute
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"permit add success","result_code":0}
+sadd key : users:a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+sadd key : users:a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"sadd success","result":1,"result_code":0}
+POST
+uri : /user/registApp?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android&user_nick=%EB%93%B1%EB%A1%9D
+path : /user/registApp
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android&user_nick=%EB%93%B1%EB%A1%9D
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com","app_id":"jp.naver.line.android","user_nick":"등록"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.RegistAppAPI execute !!
+4 getRedis execute
+6 insertQuery execute
+com.soma.ggamtalk.api.RegistAppAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+32 delRedis execute
+com.soma.ggamtalk.api.RegistAppAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.RegistAppAPI onExecute : {"result_msg":"del success","result_code":0}
+POST
+uri : /user/appChannel?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android
+path : /user/appChannel
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com","app_id":"jp.naver.line.android"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[],"result_code":0}
+POST
+uri : /user/makeChannel?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android&channel_name=%EB%89%B4&public_onoff=on&channel_limit=3&user_nick=￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+path : /user/makeChannel
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android&channel_name=%EB%89%B4&public_onoff=on&channel_limit=3&user_nick=￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com","app_id":"jp.naver.line.android","channel_name":"뉴","public_onoff":"on","channel_limit":"3","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.MakeChannelAPI execute !!
+4 getRedis execute
+8 insertQuery execute
+24 setRedis execute
+com.soma.ggamtalk.api.MakeChannelAPI{"key":"channelList:jp.naver.line.android:b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854","value":"{\"channel_name\":\"뉴\",\"public_onoff\":\"on\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"3\",\"user_id\":\"ab@a.com\",\"app_id\":\"jp.naver.line.android\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854\"}"}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+set key : channelList:jp.naver.line.android:b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854, value : {"channel_name":"뉴","public_onoff":"on","gcm_id":"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft","channel_limit":"3","user_id":"ab@a.com","app_id":"jp.naver.line.android","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ","channel_id":"b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854"}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"set success","result_code":0}
+26 setRedis execute
+22 saddRedis execute
+permit add : b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854
+12 insertQuery execute
+sadd key : users:b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+sadd key : users:b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854, value : ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"sadd success","result":1,"result_code":0}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"permit add success","result_code":0}
+com.soma.ggamtalk.api.MakeChannelAPI onExecute : {"result_msg":"insert success","count":1,"result_code":0}
+POST
+uri : /user/appChannel?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android
+path : /user/appChannel
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com&app_id=jp.naver.line.android
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com","app_id":"jp.naver.line.android"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.AppChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+com.soma.ggamtalk.api.AppChannelAPI onExecute : {"result_msg":"select success","results":[{"channel_name":"뉴","public_onoff":"on","datetime":"2015-11-09T16:44:02Z","channel_limit":3,"channel_no":56,"channel_pw":null,"channel_cate":"","default_channel":null,"channel_id":"b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854","app_id":"jp.naver.line.android","chief_id":"ab@a.com"}],"result_code":0}
+POST
+uri : /user/listChannel?token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com
+path : /user/listChannel
+query : token=4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com
+paramters to json : {"token":"4f6bdef9ad7b223d81f47d25946eceb1e62b03dae5713b621cbd0d31b48a2bb3:ab@a.com"}
+localAddress : 133.130.113.101:7010
+com.soma.ggamtalk.api.ListChannelAPI execute !!
+4 getRedis execute
+9 selectQuery execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"get success","result":"ab@a.com,APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft,1447087409609,133.130.113.101:7010","result_code":0}
+34 mgetManyRedis execute
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"select success","results":[{"user_color":"#FFE400","list_no":62,"channel_id":"a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906","user_id":"ab@a.com","app_id":"category.Study","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"},{"user_color":"#FFE400","list_no":63,"channel_id":"b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854","user_id":"ab@a.com","app_id":"jp.naver.line.android","user_nick":"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ"}],"result_code":0}
+디벅 ["channelList:category.Study:a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906","channelList:jp.naver.line.android:b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854"]
+디벅2 
+com.soma.ggamtalk.api.ListChannelAPI onExecute : {"result_msg":"mgetMany success","result":["{\"channel_name\":\"경와니\",\"public_onoff\":\"on\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"4\",\"user_id\":\"ab@a.com\",\"app_id\":\"category.Study\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"a7782a7841a6557de9d97cbfdce3cb0fefc9f019e253ec691160091445dd4906\"}","{\"channel_name\":\"뉴\",\"public_onoff\":\"on\",\"gcm_id\":\"APA91bFh3LUB1MdSPPQHwmNTSahvgwqXav6tiJw_ovAYOYleCjPkyT_HPDWDcp7sc1IkqxJM5TVhs06MHJWGTeoPq8gquSBUQlKG705nmXfK6o8su4Mfh18VkvWT1CYvE5FlJ0XiQ2ft\",\"channel_limit\":\"3\",\"user_id\":\"ab@a.com\",\"app_id\":\"jp.naver.line.android\",\"user_nick\":\"￬ﾞﾄ￬ﾋﾜ￫ﾋﾉ￫ﾄﾤ￬ﾞﾄ\",\"channel_id\":\"b82c3171c77abf6642f2c5225dde877dcc8feae639ffabbe12c5dbc2ee035854\"}"],"result_code":0}
